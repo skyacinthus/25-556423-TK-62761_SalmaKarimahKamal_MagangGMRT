@@ -25,3 +25,6 @@ Jalankan skrip Python menggunakan perintah berikut di terminal:
 ```bash
 python3 FK2DoF.py
 ```
+
+## FITUR
+add thing abt matplotlib imp and requirements

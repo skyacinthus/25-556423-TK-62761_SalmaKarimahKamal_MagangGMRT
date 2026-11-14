@@ -1,15 +1,14 @@
 import math 
 import matplotlib.pyplot as plt
+import numpy
 
 femur = int(input("Femur Length: "))
 tibia = int(input("Tibia Length: "))
 deg1 = math.radians(int(input("Degree 1: ")))
 deg2 = math.radians(int(input("Degree 2: ")))
 
-x0 = 0
 x1 = femur*math.cos(deg1)
 x2 = x1 + tibia*math.cos(deg1+deg2)
-y0 = 0
 y1 = femur*math.sin(deg1) 
 y2 = y1 + tibia*math.sin(deg1+deg2)
 
@@ -17,8 +16,8 @@ print("end effector")
 print("x: ", x2) #mencari nilai x
 print("y: ", y2) #mencari nilai y
 
-x_coords = [x0, x1, x2]
-y_coords = [y0, y1, y2]
+x_coords = [0, x1, x2]
+y_coords = [0, y1, y2]
 
 plt.figure(figsize=(6, 6))
 

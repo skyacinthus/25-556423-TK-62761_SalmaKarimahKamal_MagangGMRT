@@ -69,7 +69,3 @@ Jalankan program melalui terminal, contoh:
 ```bash
 python3 FK3D4DoF.py
 ```
-
-# TODO: 
-- upload proof photos 
-- upload examples of matplotlib addjfsalf

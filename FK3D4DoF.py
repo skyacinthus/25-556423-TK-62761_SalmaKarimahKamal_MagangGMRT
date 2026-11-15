@@ -44,6 +44,5 @@ ax.set_xlim(- (femur + tibia), (femur + tibia)) # ukuran garfik tergantung hasil
 ax.set_ylim(- (femur + tibia), (femur + tibia))
 ax.set_zlim(0, (femur + tibia))
 ax.grid(True)
-ax.view_init(elev=20, azim=-90)
 
 plt.show() #display
